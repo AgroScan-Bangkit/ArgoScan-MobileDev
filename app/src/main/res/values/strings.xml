@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">AgroScan</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="profile">Profile</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_login_page">Welcome Back to AgroScan!</string>
+    <string name="login_desc">Log in to continue scanning and managing your agricultural data efficiently.</string>
+    <string name="email_hint">Enter your email address</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="doesnt_have_account">Don\'t have an account?</string>
+    <string name="register">Sign up now!</string>
+    <string name="login">Log In</string>
+    <string name="title_signup_page">Get Started with AgroScan!</string>
+    <string name="register_desc">Create your AgroScan account to scan plants and manage agricultural insights
+        effortlessly.
+    </string>
+    <string name="name">Full name</string>
+    <string name="name_hint">Enter your full name</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="title_forgot_password_page">Forgot Your Password?</string>
+    <string name="forgot_password_desc">No worries! Enter your email address, and we’ll send you a link to reset your
+        password.
+    </string>
+    <string name="forgot_password_hint">Send Code</string>
+    <string name="verify_email">Verify Your Email</string>
+    <string name="enter_otp_sent_to_email">We’ve sent a 6-digit verification code to your email. Please enter
+        the code below to verify your email.
+    </string>
+    <string name="verify">Verify</string>
+    <string name="reset_password_title">Reset Your Password</string>
+    <string name="reset_password_desc">Please enter a new password for your account. Make sure it\'s strong and
+        something you\'ll remember.
+    </string>
+    <string name="new_password">New Password</string>
+    <string name="new_password_hint">Enter new password</string>
+    <string name="confirm_password">Confirm New Password</string>
+    <string name="confirm_password_hint">Re-enter new password</string>
+    <string name="password_mismatch">Passwords do not match. Please try again.</string>
+    <string name="reset_password_button">Reset Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="password_changed_success">Your password has been successfully changed!</string>
+    <string name="go_to_login">Go to Login</string>
+    <string name="forgot_password_text">Forgot Password?</string>
+    <string name="reset_password_text">Reset</string>
+    <string name="title_iv_menu">Analisa Hasil Panenmu</string>
+    <string name="take_pic">Mengambil Gambar</string>
+    <string name="desc_iv_scan">Mengambil gambar</string>
+    <string name="dapatkan_rekomendasi">Rekomendasi tindakan</string>
+    <string name="lihat_diagnosis">Lihat diagnosis</string>
+    <string name="title_history">History</string>
+    <string name="title_profile">Profile</string>
+    <string name="logout">Log out</string>
+    <string name="result_scan_title">Hasil Pemindaian</string>
+    <string name="result_scan">Jenis Penyakit: [Nama Penyakit]</string>
+    <string name="title_tindakan">Tindakan yang Disarankan</string>
+    <string name="tindakan">Untuk mencegah penyebaran, lakukan penyemprotan pestisida X pada daun tanaman.</string>
+    <string name="scan_again">Scan Ulang</string>
+    <string name="nama_tanaman">Nama Tanaman</string>
+    <string name="scan_date">date scan</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="user_name">Jenny Rahma</string>
+    <string name="background_circle">Background Circle</string>
+    <string name="user_email">example@gmail.com</string>
+    <string name="background_body">background_body</string>
+    <string name="language_settings">Language</string>
+    <string name="about_us">About Us</string>
+    <string name="username">Username</string>
+    <string name="username_hint">Masukkan Username</string>
+    <string name="title_top_articles">Top Articles</string>
+    <string name="article_title">Article Title</string>
+    <string name="category_article">Category</string>
+    <string name="article_date">Article Date</string>
+    <string name="subtitle">Diagnosis Tanamanmu!</string>
+    <string name="history_fragment">History</string>
+    <string name="profile_fragment">Profile</string>
+    <string name="gallery">Gallery</string>
+    <string name="galeri">Galeri</string>
+    <string name="camera">Camera</string>
+    <string name="kamera">Kamera</string>
+    <string name="batal">Batal</string>
+    <string name="title_news">News</string>
+    <string name="news_fragment">News</string>
+    <string name="image_not_found">Image not found!</string>
+    <string name="preview_screen">Preview Screen</string>
+    <string name="analysis">analysis</string>
+    <string name="content_lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id urna diam.
+        Integer cursus, felis id auctor eleifend, justo leo hendrerit nibh, molestie condimentum risus arcu et odio.
+        Morbi diam tortor, porta a mi vitae, pharetra consequat elit. Pellentesque habitant morbi tristique senectus et
+        netus et malesuada fames ac turpis egestas. Sed finibus lectus quis odio placerat, ut euismod enim dignissim.
+        Aenean ac augue sed mi vulputate lacinia. Integer venenatis tincidunt eleifend. Pellentesque egestas neque mi,
+        in mattis odio congue non. Ut id erat finibus, congue dolor et, gravida orci.
+    </string>
+</resources>

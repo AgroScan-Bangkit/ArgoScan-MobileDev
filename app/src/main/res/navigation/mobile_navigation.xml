@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mobile_navigation"
+            app:startDestination="@+id/navigation_home">
+
+    <fragment
+            android:id="@+id/navigation_home"
+            android:name="com.example.agroscan.ui.home.HomeFragment"
+            android:label="@string/app_name"
+            tools:layout="@layout/fragment_home"/>
+
+    <fragment
+            android:id="@+id/navigation_history"
+            android:name="com.example.agroscan.ui.scan_history.ScanHistoryFragment"
+            android:label="@string/history_fragment"
+            tools:layout="@layout/fragment_scan_history"/>
+
+    <fragment
+            android:id="@+id/navigation_history_detail"
+            android:name="com.example.agroscan.ui.scan_history_detail.DetailHistoryFragment"
+            tools:layout="@layout/fragment_detail_history"/>
+
+    <fragment
+            android:id="@+id/navigation_news"
+            android:name="com.example.agroscan.ui.news.NewsFragment"
+            android:label="@string/news_fragment"
+            tools:layout="@layout/fragment_news"/>
+
+    <fragment
+            android:id="@+id/navigation_profile"
+            android:name="com.example.agroscan.ui.profile.ProfileFragment"
+            android:label="@string/profile_fragment"
+            tools:layout="@layout/fragment_profile"/>
+
+    <action
+            android:id="@+id/action_scan_history_to_detail_history"
+            app:destination="@id/navigation_history_detail"/>
+
+    <action
+            android:id="@+id/action_detail_history_to_scan_history"
+            app:destination="@id/navigation_history"/>
+
+
+</navigation>

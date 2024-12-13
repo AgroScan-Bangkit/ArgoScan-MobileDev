@@ -1,0 +1,180 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.verifikasi_email.VerifEmailActivity">
+
+    <!-- Judul Halaman -->
+    <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/verify_email"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+    <!-- Deskripsi -->
+    <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginHorizontal="16dp"
+            android:text="@string/enter_otp_sent_to_email"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="16dp"
+            android:importantForAccessibility="no"
+            app:layout_constraintBottom_toTopOf="@+id/guidelineHorizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/sending_emai"
+            app:layout_constraintTop_toBottomOf="@+id/tvDescription"/>
+
+
+    <!-- Kotak OTP -->
+    <LinearLayout
+            android:id="@+id/otpContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="16dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Kotak-kotak OTP -->
+        <EditText
+                android:id="@+id/etOtp1"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="4dp"
+                android:autofillHints="oneTimeCode"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textSize="18sp"
+                android:background="@drawable/otp_box_background"
+                tools:ignore="LabelFor"/>
+
+        <EditText
+                android:id="@+id/etOtp2"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="4dp"
+                android:gravity="center"
+                android:importantForAutofill="no" android:inputType="number"
+                android:maxLength="1"
+                android:textSize="18sp"
+                android:background="@drawable/otp_box_background"
+                tools:ignore="LabelFor"/>
+
+        <EditText
+                android:id="@+id/etOtp3"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="4dp"
+                android:autofillHints="oneTimeCode"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textSize="18sp"
+                android:background="@drawable/otp_box_background" tools:ignore="LabelFor"/>
+
+        <EditText
+                android:id="@+id/etOtp4"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="4dp"
+                android:autofillHints="oneTimeCode"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textSize="18sp"
+                android:background="@drawable/otp_box_background" tools:ignore="LabelFor"/>
+
+        <EditText
+                android:id="@+id/etOtp5"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="4dp"
+                android:autofillHints="oneTimeCode"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textSize="18sp"
+                android:background="@drawable/otp_box_background" tools:ignore="LabelFor"/>
+
+        <EditText
+                android:id="@+id/etOtp6"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="4dp"
+                android:autofillHints="oneTimeCode"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textSize="18sp"
+                android:background="@drawable/otp_box_background" tools:ignore="LabelFor"/>
+
+    </LinearLayout>
+
+    <!-- Tombol Submit -->
+    <Button
+            android:id="@+id/btnSubmitOtp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/verify"
+            app:layout_constraintTop_toBottomOf="@+id/otpContainer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintGuide_percent="0.30191082"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+    <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="75dp"/>
+
+    <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <!--    <androidx.fragment.app.FragmentContainerView-->
+    <!--            android:id="@+id/fragment_container"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:name="com.example.agroscan.ui.password_changed.PasswordChangedFragment"/>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

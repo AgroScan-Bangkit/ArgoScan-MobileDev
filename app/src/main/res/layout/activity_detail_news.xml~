@@ -1,0 +1,49 @@
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <!-- Judul -->
+        <TextView
+                android:id="@+id/tv_news_title_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="News Title"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="16dp" />
+
+        <!-- Gambar -->
+        <ImageView
+                android:id="@+id/iv_news_detail"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp" />
+
+        <!-- Konten -->
+        <TextView
+                android:id="@+id/tv_news_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="News Content Goes Here..."
+                android:layout_marginBottom="16dp" />
+
+        <!-- Tanggal -->
+        <TextView
+                android:id="@+id/tv_news_date_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12 Dec 2024"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                android:gravity="end" />
+    </LinearLayout>
+</ScrollView>
